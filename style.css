@@ -1,0 +1,45 @@
+
+
+// COLOR PROFILES 
+$pink: #f03485;
+$yellow: #ffce55;
+$blue: #51cbf1;
+$orange: #fa9939;
+$green: #9dc705;
+$dkblue: #038ecf;
+$grey: #484848;
+$ltgrey: #acacac;
+$dkgrey: #222;
+$red: #f3655d;
+
+body {
+  background: #060e1b;
+  overflow: hidden;
+}
+@import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
+@font-face {
+  font-family: CustomFont;
+  src: url('CCUpUpAndAway.otf');
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5
+ {
+  font-family: "Bangers", sans-serif !important;
+  color: $dkgrey;
+}
+
+
+button{
+  font-family: "Bangers", sans-serif !important;
+  background-color: crimson;
+
+}
+
+button:hover {
+  background-color:#002ead;
+  transition: 0.7s;
+}
